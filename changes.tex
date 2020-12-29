@@ -1,0 +1,128 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                              %%
+%% Introduction                 %%
+%%                              %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[preprint,12pt]{elsarticle}
+
+%% Use the option review to obtain double line spacing
+%% \documentclass[preprint,review,12pt]{elsarticle}
+
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,1p,times]{elsarticle}
+%% \documentclass[final,1p,times,twocolumn]{elsarticle}
+%% \documentclass[final,3p,times]{elsarticle}
+%% \documentclass[final,3p,times,twocolumn]{elsarticle}
+%% \documentclass[final,5p,times]{elsarticle}
+%% \documentclass[final,5p,times,twocolumn]{elsarticle}
+
+%% if you use PostScript figures in your article
+%% use the graphics package for simple commands
+%% \usepackage{graphics}
+%% or use the graphicx package for more complicated commands
+\usepackage{graphicx}
+%% or use the epsfig package if you prefer to use the old commands
+\usepackage{color}
+\usepackage{xspace}
+\usepackage{algorithmic}
+\usepackage{amsmath}
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+\usepackage{wrapfig}
+\usepackage{pdfpages}
+\usepackage{siunitx}
+
+% and a few extras
+\newcommand{\bbold}{{\boldsymbol{b}}}
+\newcommand{\Ubold}{{\boldsymbol{U}}}
+\newcommand{\Wbold}{{\boldsymbol{W}}}
+\newcommand{\Nbold}{{\boldsymbol{N}}}
+\newcommand{\Xbold}{{\boldsymbol{X}}}
+\newcommand{\xibold}{{\boldsymbol{\xi}}}
+\newcommand{\vecnabla}{{\vec{\nabla}}}
+\newcommand{\nablabold}{{\boldsymbol{\nabla}}}
+\newcommand{\Deltabold}{{\boldsymbol{\Delta}}}
+\newcommand{\eboldd}{{\ebold^d}}
+\newcommand{\ebolds}{{\ebold^s}}
+
+%\renewcommand{\ivec}{{\vec{\imath}}}
+%\renewcommand{\jvec}{{\vec{\jmath}}}
+%\renewcommand{\uvec}{{\vec{u}}}
+%\renewcommand{\xvec}{{\vec{x}}}
+%\renewcommand{\evec}{{\vec{e}}}
+%\newcommand{\xivec}{{\vec{\xi}}}
+%\newcommand{\evecd}{{\vec{e}^{\,d}}}
+%\newcommand{\Nvvec}{{\Vec{\Vec{N}}}}
+%\newcommand{\NvvecT}{{\Vec{\Vec{N}}\vphantom{N}^T}}
+%\newcommand{\NvvecTsub}[1]{{\Vec{\Vec{N}}\vphantom{N}^T_{#1}}}
+%\newcommand{\nablavec}{{\vec{\nabla}}}
+\newcommand{\NboldT}{{\Nbold^T}}
+\newcommand{\NrmT}{{\rm{N}}^{T}}
+\newcommand{\Nrm}{{\rm{N}}}
+\newcommand{\Frm}{{\text{F}}}
+\newcommand{\Fbrm}{{\text{\bfseries F}}}
+\newcommand{\Ubrm}{{\text{\bfseries U}}}
+\newcommand{\Wbrm}{{\text{\bfseries W}}}
+\newcommand{\Sbrm}{{\text{\bfseries S}}}
+\newcommand{\Nc}{{\mathcal{N}}}
+\newcommand{\xb}{{\boldsymbol{x}}}
+\newcommand{\Xb}{{\boldsymbol{X}}}
+\newcommand{\xib}{{\boldsymbol{\xi}}}
+\newcommand{\vecx}{{\vec{x}}}
+%\newcommand{\Xvec}{{\vec{X}}}
+\newcommand{\xivec}{{\vec{\xi}}}
+\newcommand{\Nb}{{\boldsymbol{N}}}
+\newcommand{\Fb}{{\boldsymbol{F}}}
+
+\newcommand{\zb}{{\boldsymbol{z}}}
+\newcommand{\Zb}{{\boldsymbol{Z}}}
+\newcommand{\zetab}{{\boldsymbol{\zeta}}}
+\newcommand{\Mb}{{\boldsymbol{M}}}
+\newcommand{\Mc}{{\mathcal{M}}}
+\newcommand{\Gb}{{\boldsymbol{G}}}
+
+\newcommand{\ib}{{\boldsymbol{i}}}
+\newcommand{\eb}{{\boldsymbol{e}}}
+\newcommand{\dpr}{{d^\prime}}
+\newcommand{\Gbrm}{{\text{\bfseries G}}}
+
+\newcommand{\Subitem}[1]{
+  \begin{itemize}
+  \item{#1}
+  \end{itemize}
+  }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                              %%
+%% New commands                 %%
+%%                              %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatletter
+ \begin{document}
+% 
+
+\noindent
+Dear Editor-in-Chief:
+
+\vspace{6pt}
+\noindent
+We'd like to thank our reviewers for the comments, suggestions, and advice on
+improving our paper, titled ``My Awesome Paper's Name.''
+We will address the comments point by point in the sections below.
+The feedback provided has improved the quality of the paper.
+Please let us know if any questions remain and we will be pleased to answer
+them.
+We appreciate the time and effort dedicated to reviewing our paper. 
+
+\vspace{4ex}
+\hspace{-1ex}{\large{\textbf {I. Response to Reviewer 1}}}
+\input{response_to_reviewer_1}
+
+\newpage
+\hspace{-1ex}{\large{\textbf {II. Response to Reviewer 2}}}
+\input{response_to_reviewer_2}
+
+\end{document}
